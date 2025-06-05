@@ -87,8 +87,8 @@ main{
     line-height: 1;
     font-size: 2rem;
     font-weight: var(--font-weight-bold);
-    margin-top: 0.625rem;
-    margin-bottom: 0.625rem;
+    margin-block-start: 0.625rem;
+    margin-block-end: 0.625rem;
 }
 
 .product-description{
@@ -97,8 +97,8 @@ main{
     font-size: var(--font-size-body);
     color: var(--grey);
     line-height: 1.4;
-    margin-top: 0.3125rem;
-    margin-bottom: 0.3125rem;
+    margin-block-start: 0.3125rem;
+    margin-block-end: 0.3125rem;
 }
 
 .product-price{
@@ -106,8 +106,8 @@ main{
     flex-direction: row;
     align-items: center;
     gap: 1rem;
-    margin-top: 0.9375rem;
-    margin-bottom: 0.9375rem;
+    margin-block-start: 0.9375rem;
+    margin-block-end: 0.9375rem;
 }
 
 .price-current{
@@ -200,8 +200,8 @@ main{
         line-height: 1.1;
         font-size: 2rem;
         font-weight: var(--font-weight-bold);
-        margin-top: 0.625rem;
-        margin-bottom: 0.625rem;
+        margin-block-start: 0.625rem;
+        margin-block-end: 0.625rem;
     }
 
     .product-description{
@@ -210,8 +210,8 @@ main{
         font-size: var(--font-size-body);
         color: var(--grey);
         line-height: 1.6;
-        margin-top: 1.25rem;
-        margin-bottom: 1.5625rem;
+        margin-block-start: 1.25rem;
+        margin-block-end: 1.5625rem;
     }
 
     .product-price{
@@ -219,8 +219,8 @@ main{
         flex-direction: row;
         align-items: center;
         gap: 1rem;
-        margin-top: 0.9375rem;
-        margin-bottom: 1.875rem;
+        margin-block-start: 0.9375rem;
+        margin-block-end: 1.875rem;
     }
 
     .price-current{
