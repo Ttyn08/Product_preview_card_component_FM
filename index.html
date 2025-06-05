@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Product preview card component</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&display=swap" rel="stylesheet">
@@ -11,27 +11,30 @@
 </head>
 <body>
     <main>
-        <div class="product_card">
-            <div class="card_image">
-                <img src="images/image_channel.jpg" alt="image_channel"> 
+        <article class="product-card"> 
+            <div class="card-image">
+                <img class="mobile-image"
+                        src="images/image-product-mobile.jpg" alt="image_mobile"> 
+                <img class="desktop-image"
+                        src="images/image-product-desktop.jpg" alt="image_desktop"> 
             </div>
-            <div class="card_content">
-                <p id="text_perfume">PERFUME</p>
-                <h1 id="title">Gabrielle Essence Eau De Parfum</h1>
-                <p id="text_description">
+            <div class="card-content">
+                <p class="product-category">PERFUME</p>
+                <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
+                <p class="product-description">
                     A floral, solar and voluptuous interpretation composed by Olivier Polge, 
                     Perfumer-Creator for the House of CHANEL.
                 </p>
-                <div class="price">
-                    <p id="price1">$149.99</p>
-                    <p id="price2">$169.99</p>
+                <div class="product-price">
+                    <p class="price-current">$149.99</p>
+                    <p class="price-original">$169.99</p>
                 </div>
-                <div class="btn-cart">
+                <button class="btn-cart">
                     <img src="images/icon-cart.svg" alt="icon-cart">
-                    <p>Add to cart</p>
-                </div>
+                    <span>Add to cart</span>
+                </button>
             </div> 
-        </div>
+        </article>
     </main>
 </body>
 </html>
